@@ -1,7 +1,11 @@
-export const App = () => {
+import TodoList from "./components/TodoList";
+
+function App() {
   return (
-    <div className="App">
-      <h1>Render your TodoList here 🤓</h1>
+    <div className="flex justify-center items-center min-h-screen bg-gray-200">
+      <TodoList />
     </div>
-  )
+  );
 }
+
+export default App;
